@@ -1,6 +1,9 @@
 [package]
-name = "sublimit"
+name = "revproxy"
 version = "0.1.0"
 authors = ["Isamu Mogi <isamu@leafytree.jp>"]
 
 [dependencies]
+futures = "*"
+hyper = "*"
+pretty_env_logger = "*"
